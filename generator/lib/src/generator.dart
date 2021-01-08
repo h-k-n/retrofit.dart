@@ -120,6 +120,7 @@ class RetrofitGenerator extends GeneratorForAnnotation<retrofit.RestApi> {
           ..name = _dioVar
           ..toThis = true));
         c.optionalParameters.add(Parameter((p) => p
+          ..required = true
           ..named = true
           ..name = _baseUrlVar
           ..toThis = true));
